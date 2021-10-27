@@ -17,6 +17,8 @@
 		src - путь к модулю от корня сайта
 	 */
 	let modules = [
+		/*
+		Пример наполнения этого массива:
 		{	sel: '.sp, .sp-op, .sp-silent',
 			src: '/lib/spoiler/sp.js'
 		},
@@ -37,7 +39,7 @@
 		},
 		{	sel: '[onclick *= copy_to_clipboard]',
 			src: '/lib/spec.js'
-		},
+		}*/
 	];
 	// Не пытайся подключить здесь rnd.js для rndCh - это событе для него слишком позднее.
 
