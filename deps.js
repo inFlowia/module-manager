@@ -15,13 +15,13 @@ function showRndCh1(){
 };
 */
 function include_script(path, is_async = true, to_head = true){
-    let script = document.createElement('script');
-    script.src = path;
-		script.async = is_async;
-		if(to_head)
-    	document.head.appendChild(script);
-		else
-			document.body.appendChild(script);
+	let script = document.createElement('script');
+	script.src = path;
+	script.async = is_async;
+	if(to_head)
+    		document.head.appendChild(script);
+	else
+		document.body.appendChild(script);
 }
 
 
